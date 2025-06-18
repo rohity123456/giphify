@@ -8,9 +8,9 @@ interface GifGridProps {
 
 export default function GifGrid({ gifs = [] }: GifGridProps) {
   return (
-    <div className='grid grid-cols-2 xs:grid-cols-1 md:grid-cols-4 gap-[5px]'>
+    <div className='grid grid-cols-2 xs:grid-cols-1 md:grid-cols-4 gap-[10px]'>
       {chunkArray(gifs, 3).map((row, rowIndex) => (
-        <div key={rowIndex} className=''>
+        <div key={rowIndex} className='flex flex-col gap-[10px]'>
           {row.map((gif) => (
             <GifCard key={gif.id} gif={gif} />
           ))}
