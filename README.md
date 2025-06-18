@@ -5,7 +5,8 @@ A fast, responsive, and beautifully styled web application that lets users searc
 
 
 ## Demo
-![demo](https://media.giphy.com/media/ICOgUNjpvO0PC/giphy.gif)
+[![Giphy GIF Explorer](https://giphify-nine.vercel.app/)](https://giphify-nine.vercel.app/)
+
 
 ---
 
